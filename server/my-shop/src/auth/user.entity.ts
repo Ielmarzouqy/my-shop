@@ -15,6 +15,6 @@ export class User {
   email: string;
 
   @Column()
-  // i dont want to add Field into password , because password is sensitive data
+  // i dont want to add Field into password , because password is sensitive data e
   password: string;
 }
